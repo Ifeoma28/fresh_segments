@@ -17,4 +17,7 @@ Danny has asked for your assistance to analyse aggregated metrics for an example
 
 
 ## Dataset
-The dataset for this project is sourced from [Danny Ma](https:
+The dataset for this project is sourced from [Danny Ma](https://www.linkedin.com/in/datawithdanny)
+
+## Tools Used
+- MSSQL for querying the database.
