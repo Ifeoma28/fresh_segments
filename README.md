@@ -19,11 +19,6 @@ Danny has asked for your assistance to analyse aggregated metrics for an example
 ## Dataset
 The dataset for this project is sourced from [Danny Ma](https://www.linkedin.com/in/datawithdanny)
 
-## Tools Used
-- MSSQL for querying the database.
-- Data cleaning and exploration
-  
-
 ## About Dataset 
 - Fresh_segments.interest metrics  table contains information about aggregated interest metrics for a specific major client of Fresh Segments which makes up a large proportion of their customer base. Each record in this table represents the performance of a specific interest_id based on the client’s customer base interest measured through clicks and interactions with specific targeted advertising content.
 
@@ -33,9 +28,56 @@ The dataset for this project is sourced from [Danny Ma](https://www.linkedin.com
 In July 2018, the composition metric is 11.89, meaning that 11.89% of the client’s customer list interacted with the interest interest_id = 32486 - we can link interest_id to a separate mapping table to find the segment name called “Vacation Rental Accommodation Researchers”.
 
 
-
 - Fresh_segments.interest map contains  links the interest_id with their relevant interest information. You will need to join this table onto the previous interest_details table to obtain the interest_name as well as any details about the summary information.
 The table below shows part of the interest map table.
+
+## Tools Used
+- MSSQL for querying the database.
+- Data cleaning and exploration
+1) I changed the blank collumns to nulls.
+2) I changed the data type of the column and extracted the year column from month_year column.
+3) The data contained 1194 null interest ID (records)
+4) The interest metrics table contained 1202 distinct interests
+```
+SELECT COUNT(DISTINCT interest_id) AS interest_count
+FROM interest_metrics_2;
+-- 1202 Interests
+```
+The interest map table contained information on 1209 interests and their ID
+These are the queries performed when cleaning the dataset.
+```
+--update NULL values
+--UPDATE interest_metrics
+--SET _year = NULL
+--WHERE LTRIM(RTRIM(_year)) = '';
+
+--ALTER TABLE interest_metrics
+--ALTER COLUMN _year INT;
+
+--UPDATE interest_metrics
+--SET month_year = NULL
+--WHERE month_year = 'null';
+
+--UPDATE interest_metrics
+--SET interest_id = NULL
+--WHERE interest_id = 'null';
+
+--ALTER TABLE interest_metrics
+--ALTER COLUMN month_year VARCHAR(10);
+
+--UPDATE interest_metrics
+--SET month_year = 
+	--CONCAT(
+	--SUBSTRING(month_year,4, 4), -- year
+	--'-',
+	--SUBSTRING(month_year,1,2), -- month
+	--'-01' -- day)
+--WHERE month_year IS NOT NULL;
+
+--ALTER TABLE interest_metrics
+--ALTER COLUMN  month_year DATE;
+
+```
 
 ## BUSINESS QUESTIONS
 # Interest Analysis
