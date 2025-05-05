@@ -30,6 +30,7 @@ In July 2018, the composition metric is 11.89, meaning that 11.89% of the client
 
 - Fresh_segments.interest map contains  links the interest_id with their relevant interest information. You will need to join this table onto the previous interest_details table to obtain the interest_name as well as any details about the summary information.
 The table below shows part of the interest map table.
+![interest map](https://github.com/Ifeoma28/fresh_segments/blob/502040404bdcbd76213478a0366d63c2213903eb/interest%20map.png)
 
 ## Tools Used
 - MSSQL for querying the database.
