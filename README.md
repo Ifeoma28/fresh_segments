@@ -1,4 +1,4 @@
-# fresh_segments
+## fresh_segments
 a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
 
 
@@ -10,7 +10,7 @@ In particular - the composition and rankings for different interests are provide
 
 Danny needs assistance to analyse aggregated metrics for an example client and provide some high level insights about the customer list and their interests.
 
-### Objectives 
+## Objectives 
 - Interest Analysis
 - Segment Analysis
 - Index Analysis
@@ -20,16 +20,22 @@ Danny needs assistance to analyse aggregated metrics for an example client and p
 The dataset for this project is sourced from [Danny Ma](https://www.linkedin.com/in/datawithdanny)
 
 ## About Dataset 
-- Fresh_segments.interest metrics  table contains information about aggregated interest metrics for a specific major client of Fresh Segments which makes up a large proportion of their customer base. Each record in this table represents the performance of a specific interest_id based on the client’s customer base interest measured through clicks and interactions with specific targeted advertising content.
+- Fresh_segments.interest metrics  table contains information about aggregated interest metrics for a specific major client of Fresh Segments which makes up a large proportion of their customer base.
+
+Each record in this table represents the performance of a specific interest_id based on the client’s customer base interest measured through clicks and interactions with specific targeted advertising content.
 
  The table below is a part of the Interest metrics table. 
  ![interest metrics](https://github.com/Ifeoma28/fresh_segments/blob/48e32eb6a29b39329a7c08cbb1f7ea7f96d08aa4/interest%20metrics.png)
  
  For example - let’s interpret the first row of the interest_metrics table together:
-In July 2018, the composition metric is 11.89, meaning that 11.89% of the client’s customer list interacted with the interest interest_id = 32486 - we can link interest_id to a separate mapping table to find the segment name called “Vacation Rental Accommodation Researchers”.
+In July 2018, the composition metric is 11.89, meaning that 11.89% of the client’s customer list interacted with the interest interest_id = 32486 
+
+we can link this  interest_id to a separate mapping table to find the segment name called “Vacation Rental Accommodation Researchers”.
 
 
-- Fresh_segments.interest map contains  links the interest_id with their relevant interest information. You will need to join this table onto the previous interest_details table to obtain the interest_name as well as any details about the summary information.
+- Fresh_segments.interest map contains  links the interest_id with their relevant interest information.
+
+-  You will need to join this table onto the previous interest_details table to obtain the interest_name as well as any details about the summary information.
 The table below shows part of the interest map table.
 ![interest map](https://github.com/Ifeoma28/fresh_segments/blob/502040404bdcbd76213478a0366d63c2213903eb/interest%20map.png)
 
@@ -46,7 +52,7 @@ FROM interest_metrics_2;
 -- 1202 Interests
 ```
 The interest map table contained information on 1209 interests and their ID.
-These are the queries performed when cleaning the dataset.
+These are the queries performed when cleaning the interest metrics dataset.
 ```
 --update NULL values
 --UPDATE interest_metrics
@@ -82,6 +88,7 @@ These are the queries performed when cleaning the dataset.
 ```
 
 ## BUSINESS QUESTIONS
+
 # Interest Analysis
 - Which interests have been present in all month_year dates in our dataset?
 ```
@@ -358,17 +365,20 @@ ORDER BY 1,4 DESC;
 - Out of 1,202 distinct interests, 480 interests were consistently present across all 14 unique months, showing a strong baseline for longitudinal analysis.
 
 - However, 1,194 null records indicate missing or incomplete data—worth investigating to ensure data quality and impact on analysis.
+  
 - By filtering out interests with less than 6 months of data, i ensured consistency and reliability in trend analysis.
 
 - Top Interest: Work Comes First Travelers (ID: 21057) peaked with a composition of 21.2, indicating a strong affinity or engagement.
 
 - Bottom Interest: Astrology Enthusiasts (ID: 33958) had a composition of 1.88, suggesting low engagement or niche relevance.
+  
 - Ranking Trends
 Winter Apparel Shoppers (ID: 41548) had the lowest average ranking (1), showing strong, consistent performance.
 
 - Other strong performers include Fitness Activity Tracker Users, Men's Shoe Shoppers, and Elite Cycling Gear Shoppers.
 
 - Blockbuster Movie Fans (ID: 6260) showed the highest standard deviation in percentile ranking, suggesting fluctuating interest—possibly linked to movie releases or seasonal trends.
+  
 - Monthly Top Interests (July 2018 – August 2019)
 Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) repeatedly dominated multiple months.
 
