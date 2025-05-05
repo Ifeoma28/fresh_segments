@@ -222,9 +222,25 @@ ORDER BY 1;
 -- the minimum and max.percentiles keep reducing every first day of
 -- the month for these interests with the largest standard deviation
 ```
-- Can you describe what is happening for these 5 interests?
+- For these 5 interests that the largest standard deviation in their percentile_ranking value, we can see a steady decrease in the minimum and maximum percentile_ranking every month 
 
 - How would you describe our customers in this segment based off their composition and ranking values? What sort of products or services should we show to these customers and what should we avoid?
+
+1) Customers with the Largest Standard Deviation.
+These customers engage with interests that show high volatility—their composition and ranking values fluctuate significantly over time.
+
+Example: Blockbuster Movie Fans had large swings in percentile ranking—indicating periods of intense interest followed by drops.
+
+2) Customers with the Lowest Standard Deviation
+These customers show stable, consistent engagement across time. Interests like Winter Apparel Shoppers or Fitness Tracker Users have steady ranking and composition values.
+
+- Products to show
+1) High Stdv :Timely, seasonal, trend-based and  Campaigns aligned with current events (e.g. new movie releases, tech launches).
+2) Low stdv : Subscriptions, core offerings
+
+- Products not to show
+1) High Stdv : Long-term product pitches or generic ads—these may miss the engagement window.
+2) low Stdv: Flashy, short-term offers or rapidly changing messaging—they don’t need urgency to engage.
 
 # Index Analysis
 - The index_value is a measure which can be used to reverse calculate the average composition for Fresh Segments clients.
