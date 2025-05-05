@@ -23,6 +23,7 @@ The dataset for this project is sourced from [Danny Ma](https://www.linkedin.com
 - Fresh_segments.interest metrics  table contains information about aggregated interest metrics for a specific major client of Fresh Segments which makes up a large proportion of their customer base. Each record in this table represents the performance of a specific interest_id based on the client’s customer base interest measured through clicks and interactions with specific targeted advertising content.
 
  The table below is a part of the Interest metrics table. 
+ ![interest metrics](https://github.com/Ifeoma28/fresh_segments/blob/48e32eb6a29b39329a7c08cbb1f7ea7f96d08aa4/interest%20metrics.png)
  
  For example - let’s interpret the first row of the interest_metrics table together:
 In July 2018, the composition metric is 11.89, meaning that 11.89% of the client’s customer list interacted with the interest interest_id = 32486 - we can link interest_id to a separate mapping table to find the segment name called “Vacation Rental Accommodation Researchers”.
