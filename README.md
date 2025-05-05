@@ -336,6 +336,25 @@ ORDER BY 1,4 DESC;
 ```
 - Provide a possible reason why the max average composition might change from month to month? Could it signal something is not quite right with the overall business model for Fresh Segments?
 
+## Insights 
+- Out of 1,202 distinct interests, 480 interests were consistently present across all 14 unique months, showing a strong baseline for longitudinal analysis.
 
+- However, 1,194 null records indicate missing or incomplete data—worth investigating to ensure data quality and impact on analysis.
+- By filtering out interests with less than 6 months of data, i ensured consistency and reliability in trend analysis.
 
-```
+- Top Interest: Work Comes First Travelers (ID: 21057) peaked with a composition of 21.2, indicating a strong affinity or engagement.
+
+- Bottom Interest: Astrology Enthusiasts (ID: 33958) had a composition of 1.88, suggesting low engagement or niche relevance.
+- Ranking Trends
+Winter Apparel Shoppers (ID: 41548) had the lowest average ranking (1), showing strong, consistent performance.
+
+- Other strong performers include Fitness Activity Tracker Users, Men's Shoe Shoppers, and Elite Cycling Gear Shoppers.
+
+- Blockbuster Movie Fans (ID: 6260) showed the highest standard deviation in percentile ranking, suggesting fluctuating interest—possibly linked to movie releases or seasonal trends.
+- Monthly Top Interests (July 2018 – August 2019)
+Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) repeatedly dominated multiple months.
+
+- Solar Energy Researchers, Alabama Trip Planners, and Cosmetics & Beauty Shoppers emerged in specific months, suggesting temporal or campaign-based spikes.
+
+- Peak Engagement Month
+October 2018 had the highest average of average composition for top 10 interests at 7.07, indicating a period of heightened user engagement or interest alignment.
