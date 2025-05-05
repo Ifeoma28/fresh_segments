@@ -45,7 +45,7 @@ SELECT COUNT(DISTINCT interest_id) AS interest_count
 FROM interest_metrics_2;
 -- 1202 Interests
 ```
-The interest map table contained information on 1209 interests and their ID
+The interest map table contained information on 1209 interests and their ID.
 These are the queries performed when cleaning the dataset.
 ```
 --update NULL values
