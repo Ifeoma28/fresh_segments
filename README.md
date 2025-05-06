@@ -378,6 +378,19 @@ Winter Apparel Shoppers (ID: 41548) had the lowest average ranking (1), showing 
 - Other strong performers include Fitness Activity Tracker Users, Men's Shoe Shoppers, and Elite Cycling Gear Shoppers.
 
 - Blockbuster Movie Fans (ID: 6260) showed the highest standard deviation in percentile ranking, suggesting fluctuating interest—possibly linked to movie releases or seasonal trends.
+- Customers with Low Standard Deviation
+Top Interests:
+1) Winter Apparel Shoppers
+
+2) Online Role-Playing Game Enthusiasts
+
+3) Readers of Honduran Content
+
+4) Sci-Fi Movie and TV Enthusiasts
+
+5) Fitness Activity Tracker Users
+
+- out of these top 5 interests with low standard deviation,Winter Apparel Shoppers and Fitness Activity Tracker have a very high composition. Also Users Readers of Honduran content in the month of May 2019 have a high average composition too. it suggests a strong and consistently popular segment, which is great for broad promotions.
   
 - Monthly Top Interests (July 2018 – August 2019)
 Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) repeatedly dominated multiple months.
