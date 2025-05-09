@@ -214,6 +214,9 @@ ORDER BY 2 ASC;
 -- Winter Apparel shoppers with ID(41548) had the lowest average ranking of 1 followed by Fitness Activity tracker users with ID(42203)
 -- and Mens shoe shoppers with ID (115),Elite cycling gear shoppers with ID (48154) AND shoe shoppers with ID (171)
 ```
+This can be seen in the decline in average composition over time.
+![low ranked](https://github.com/Ifeoma28/fresh_segments/blob/073db56ca186b79e8bd43c61346ee686ff976a2f/low%20interest%20ranking.png)
+
 - Which 5 interests had the largest standard deviation in their percentile_ranking value?
 ```
 SELECT TOP 5 interest_id,STDEV(percentile_ranking) AS stdev_percentile_ranking,CAST(ip.interest_name AS VARCHAR(MAX)) AS interest_name
