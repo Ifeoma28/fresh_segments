@@ -235,8 +235,7 @@ FROM interest_metrics_2
 WHERE interest_id IN (6260, 131, 150, 23, 20764)
 GROUP BY interest_id,month_year
 ORDER BY 1;
--- the minimum and max.percentiles keep reducing every first day of
--- the month for these interests with the largest standard deviation
+-- the minimum and max.percentiles keep reducing every first day of the month for these interests with the largest standard deviation
 ```
 - For these 5 interests that the largest standard deviation in their percentile_ranking value, we can see a steady decrease in the minimum and maximum percentile_ranking every month 
 
@@ -248,7 +247,7 @@ These customers engage with interests that show high volatility—their composit
 Example: Blockbuster Movie Fans had large swings in percentile ranking—indicating periods of intense interest followed by drops.
 
 2) Customers with the Lowest Standard Deviation
-These customers show stable, consistent engagement across time. Interests like Winter Apparel Shoppers or Fitness Tracker Users have steady ranking and composition values.
+These customers show stable, consistent engagement across time. Interests like Winter Apparel Shoppers or Fitness Tracker Users have steady composition values despite having a low average ranking. 
 
 - Products to show
 1) High Stdv :Timely, seasonal, trend-based and  Campaigns aligned with current events (e.g. new movie releases, tech launches).
@@ -406,7 +405,7 @@ Top Interests:
 
 5) Fitness Activity Tracker Users
 
-- out of these top 5 interests with low standard deviation,Winter Apparel Shoppers and Fitness Activity Tracker have a very high composition. Also Users Readers of Honduran content in the month of May 2019 have a high average composition too. it suggests a strong and consistently popular segment, which is great for broad promotions.
+- out of these top 5 interests with low standard deviation,Winter Apparel Shoppers and Fitness Activity Tracker have a very high composition. Also Readers of Honduran content in the month of May 2019 have a high average composition too. it suggests a strong and consistently popular segment, which is great for broad promotions.
   
 - Monthly Top Interests (July 2018 – August 2019)
 Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) repeatedly dominated multiple months.
@@ -420,6 +419,7 @@ October 2018 had the highest average of average composition for top 10 interests
 - Frequent shifts in top interests aren’t necessarily bad — but if Fresh Segments wants to build a sustainable and loyal user base, it needs to understand why certain interests dominate at certain times, and what causes them to fall off.
   
 - Blockbuster Movie Fans had the highest standard deviation in average composition and it wasn’t random. The sharp decline reflects a deeper shift in entertainment consumption. For Fresh Segments, it’s a sign to re-evaluate how entertainment interests are evolving and whether certain legacy segments are worth pursuing.
+
 - Interests like Men’s Shoe Shoppers, Shoe Shoppers, and Fitness Activity Tracker Users display a declining trend in composition.
 This could imply shifting consumer behavior or seasonal relevance.
 
