@@ -220,6 +220,8 @@ GROUP BY interest_id,CAST(ip.interest_name AS VARCHAR(MAX))
 ORDER BY 2 DESC;
 -- Blockbuster movie fans with Id (6260) has the largest standard deviation in their percentile ranking value
 ```
+![standard deviation](https://github.com/Ifeoma28/fresh_segments/blob/ce517436ed2f977c1f7576df6dddb92be2aeb05e/blockbuster%202.png)
+
 - For the 5 interests found in the previous question - what was minimum and maximum percentile_ranking values for each interest and its corresponding year_month value?
 ```
 SELECT interest_id,month_year,MIN(percentile_ranking) AS min_percentile,MAX(percentile_ranking) AS max_percentile
