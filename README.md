@@ -41,7 +41,8 @@ The table below shows part of the interest map table.
 
 ## Tools Used
 - MSSQL for querying the database.
-- Data cleaning and exploration
+- Data cleaning and exploration.
+- Power bi for visualization 
 1) I changed the blank collumns to nulls.
 2) I changed the data type of the column and extracted the year column from month_year column.
 3) The data contained 1194 null interest ID (records)
