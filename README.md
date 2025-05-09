@@ -198,7 +198,7 @@ JOIN interest_map ip  ON mpi.interest_id = ip.id
 ORDER BY composition ASC;
 -- interest_id 33958 (Astrology enthusiasts) is the least with a composition of 1.88
 ```
-look at the average composition over time below  
+look at the average composition of interests with 6months worth of data over time below  
 ![Top and bottom interests](https://github.com/Ifeoma28/fresh_segments/blob/bf2cc8f23d6ee23d3589906b94b8dad9d45bee0f/Top%20and%20bottom%20interest.png)
 
 - Which 5 interests had the lowest average ranking value?
