@@ -258,8 +258,9 @@ These customers show stable, consistent engagement across time. Interests like W
 1) High Stdv : Long-term product pitches or generic ads—these may miss the engagement window.
 2) low Stdv: Flashy, short-term offers or rapidly changing messaging—they don’t need urgency to engage.
 
-Also, I plotted Average Composition vs. Standard Deviation of Percentile Ranking to understand volatility.
+Also, I used a scatter plot to check the relationship between Average Composition and Standard Deviation of Percentile Ranking to understand volatility.
 
+![scatter plot](https://github.com/Ifeoma28/fresh_segments/blob/f258d7c390ea2413bfcb774ecb18ba7929ecae63/Stdv%20vs%20average%20comp.png)
 And here’s the kicker:
 There was no clear pattern.
 That tells me:
