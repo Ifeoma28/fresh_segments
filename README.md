@@ -426,3 +426,5 @@ This could imply shifting consumer behavior or seasonal relevance.
 
 - A popular segment can also be the most unstable. (high standard deviation).
 If Fresh Segments targets based solely on popularity, it might miss durable, low-noise segments.
+- Don't push fitness or astrology-related offers unless you're targeting niche segments. Their low average ranking and possible lack of stickiness means poor ROI.
+- 
