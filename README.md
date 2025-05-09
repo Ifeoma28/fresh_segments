@@ -258,6 +258,16 @@ These customers show stable, consistent engagement across time. Interests like W
 1) High Stdv : Long-term product pitches or generic ads—these may miss the engagement window.
 2) low Stdv: Flashy, short-term offers or rapidly changing messaging—they don’t need urgency to engage.
 
+Also, I plotted Average Composition vs. Standard Deviation of Percentile Ranking to understand volatility.
+
+And here’s the kicker:
+There was no clear pattern.
+That tells me:
+
+- High engagement doesn’t always mean stability(low standard deviation).
+- Low average interests can still be rock solid in how they rank over time.
+
+
 # Index Analysis
 - The index_value is a measure which can be used to reverse calculate the average composition for Fresh Segments clients.
 Average composition can be calculated by dividing the composition column by the index_value column rounded to 2 decimal places.
