@@ -360,6 +360,13 @@ WHERE month_year BETWEEN '2018-09-01'AND'2019-08-01'
 ORDER BY 1,4 DESC;
 ```
 - Provide a possible reason why the max average composition might change from month to month? Could it signal something is not quite right with the overall business model for Fresh Segments?
+1) Yes, the maximum average composition changing month to month can be a normal reflection of shifting interests.
+   
+2) People’s interests change due to seasonality, news cycles, or life events.
+For example: “Alabama Trip Planners” may spike in summer and drop in fall.
+
+3) Marketing Campaigns or Partnerships
+If Fresh Segments collaborates with brands or runs promotions targeting specific interests (e.g., solar energy or cosmetics), that could temporarily boost certain segments.
 
 ## Insights 
 - Out of 1,202 distinct interests, 480 interests were consistently present across all 14 unique months, showing a strong baseline for longitudinal analysis.
@@ -399,3 +406,13 @@ Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) re
 
 - Peak Engagement Month
 October 2018 had the highest average of average composition for top 10 interests at 7.07, indicating a period of heightened user engagement or interest alignment.
+
+## Recommendation 
+- Frequent shifts in top interests aren’t necessarily bad — but if Fresh Segments wants to build a sustainable and loyal user base, it needs to understand why certain interests dominate at certain times, and what causes them to fall off.
+  
+- Blockbuster Movie Fans had the highest standard deviation in average composition and it wasn’t random. The sharp decline reflects a deeper shift in entertainment consumption. For Fresh Segments, it’s a sign to re-evaluate how entertainment interests are evolving and whether certain legacy segments are worth pursuing.
+- Interests like Men’s Shoe Shoppers, Shoe Shoppers, and Fitness Activity Tracker Users display a declining trend in composition.
+This could imply shifting consumer behavior or seasonal relevance.
+
+- A popular segment can also be the most unstable. (high standard deviation).
+If Fresh Segments targets based solely on popularity, it might miss durable, low-noise segments.
