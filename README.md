@@ -405,6 +405,7 @@ Winter Apparel Shoppers (ID: 41548) had the lowest average ranking (1), showing 
 - Other strong performers include Fitness Activity Tracker Users, Men's Shoe Shoppers, and Elite Cycling Gear Shoppers.
 
 - Blockbuster Movie Fans (ID: 6260) showed the highest standard deviation in percentile ranking, suggesting fluctuating interest—possibly linked to movie releases or seasonal trends.
+  
 - Customers with Low Standard Deviation
 Top Interests:
 1) Winter Apparel Shoppers
@@ -423,6 +424,7 @@ Top Interests:
 Las Vegas Trip Planners (ID: 6324) and Work Comes First Travelers (ID: 21057) repeatedly dominated multiple months.
 
 - Solar Energy Researchers, Alabama Trip Planners, and Cosmetics & Beauty Shoppers emerged in specific months, suggesting temporal or campaign-based spikes.
+![Top 5](https://github.com/Ifeoma28/fresh_segments/blob/948e7e91359fbe8255d3375b608eb0cbeb3b9f71/Top%205%20avg%20comp.png)
 
 - Peak Engagement Month
 October 2018 had the highest average of average composition for top 10 interests at 7.07, indicating a period of heightened user engagement or interest alignment.
@@ -437,5 +439,6 @@ This could imply shifting consumer behavior or seasonal relevance.
 
 - A popular segment can also be the most unstable. (high standard deviation).
 If Fresh Segments targets based solely on popularity, it might miss durable, low-noise segments.
+
 - Don't push fitness or astrology-related offers unless you're targeting niche segments. Their low average ranking and possible lack of stickiness means poor ROI.
 - 
