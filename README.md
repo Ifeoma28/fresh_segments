@@ -1,7 +1,8 @@
 ## fresh_segments
 a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
 
-
+## Author
+Ifeoma Mary-Ann James
 
 ## Overview 
 Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
